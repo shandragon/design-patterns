@@ -7,7 +7,8 @@ public class Menu {
         System.out.println("Exemplos de Padrões de Projeto");
         System.out.println("===== Escolha um Padrão ======");
         System.out.println("1. Strategy");
-        System.out.println("2. Sair");
+        System.out.println("2. Observer");
+        System.out.println("0. Sair");
         System.out.println("==============================");
     }
 
@@ -24,4 +25,15 @@ public class Menu {
         System.out.println("==============================");
     }
 
+    public void menuEstoque() {
+        System.out.println();
+        System.out.println("==============================");
+        System.out.println("ESTOQUE");
+        System.out.println("===== Escolha Operacao ======");
+        System.out.println("1. Adicionar Produto");
+        System.out.println("2. Remover Produto");
+        System.out.println("3. Listar Produtos");
+        System.out.println("4. Sair");
+        System.out.println("==============================");
+    }
 }

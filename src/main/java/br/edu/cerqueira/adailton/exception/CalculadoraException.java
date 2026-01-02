@@ -4,7 +4,7 @@ public class CalculadoraException extends Exception {
     public static int DIVISAO_POR_ZERO = 1;
     public static int OPERACAO_INVALIDA = 2;
 
-    private int code;
+    private final int code;
 
     public CalculadoraException(int code, String message) {
         super(message);

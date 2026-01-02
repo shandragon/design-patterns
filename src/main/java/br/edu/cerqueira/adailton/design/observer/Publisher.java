@@ -1,4 +1,21 @@
 package br.edu.cerqueira.adailton.design.observer;
 
-public class Publisher {
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Publisher {
+    protected List<Subscriber> subscribers = new ArrayList<>();
+
+    public void registrar(Subscriber subscriber) {
+        subscribers.add(subscriber);
+    }
+    public void remover(Subscriber subscriber) {
+        subscribers.remove(subscriber);
+    }
+
+    public void notificar(EstoqueEvent evento, String mensagem) {
+        for (Subscriber subscriber : subscribers) {
+            subscriber.atualizar(evento, mensagem);
+        }
+    }
 }

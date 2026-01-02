@@ -6,7 +6,7 @@ import br.edu.cerqueira.adailton.exception.CalculadoraException;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class PatternStrategyTest {
+public class StrategyPatternTest {
     @Test
     public void deveSomarDoisNumeros() {
         // Arrange

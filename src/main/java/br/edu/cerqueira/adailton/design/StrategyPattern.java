@@ -5,7 +5,7 @@ import br.edu.cerqueira.adailton.util.Menu;
 
 import java.util.Scanner;
 
-public class PatternStrategy implements Pattern {
+public class StrategyPattern implements Pattern {
     @Override
     public void executar() {
         Menu menu = new Menu();

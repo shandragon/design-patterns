@@ -1,7 +1,8 @@
 package br.edu.cerqueira.adailton;
 
+import br.edu.cerqueira.adailton.design.ObserverPattern;
 import br.edu.cerqueira.adailton.design.Pattern;
-import br.edu.cerqueira.adailton.design.PatternStrategy;
+import br.edu.cerqueira.adailton.design.StrategyPattern;
 import br.edu.cerqueira.adailton.util.Menu;
 import br.edu.cerqueira.adailton.util.MenuOpcao;
 
@@ -13,7 +14,8 @@ public class DesignPatterns {
 
     public DesignPatterns() {
         this.padroes = new HashMap<>();
-        this.padroes.put(MenuOpcao.STRATEGY.getCodigo(), new PatternStrategy());
+        this.padroes.put(MenuOpcao.STRATEGY.getCodigo(), new StrategyPattern());
+        this.padroes.put(MenuOpcao.OBSERVER.getCodigo(), new ObserverPattern());
     }
 
     public static void main(String[] args) {

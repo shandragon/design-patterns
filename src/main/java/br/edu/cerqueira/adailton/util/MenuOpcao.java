@@ -2,7 +2,8 @@ package br.edu.cerqueira.adailton.util;
 
 public enum MenuOpcao {
     STRATEGY(1, "Strategy"),
-    SAIR(2, "Sair");
+    OBSERVER(2, "Observer"),
+    SAIR(0, "Sair");
 
     private final int codigo;
     private final String descricao;
