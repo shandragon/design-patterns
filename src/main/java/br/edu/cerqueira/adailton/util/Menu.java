@@ -33,7 +33,8 @@ public class Menu {
         System.out.println("1. Adicionar Produto");
         System.out.println("2. Remover Produto");
         System.out.println("3. Listar Produtos");
-        System.out.println("4. Sair");
+        System.out.println("4. Registrar/Remover alerta");
+        System.out.println("0. Sair");
         System.out.println("==============================");
     }
 }

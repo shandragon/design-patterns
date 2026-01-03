@@ -14,6 +14,7 @@ public abstract class Publisher {
     }
 
     public void notificar(EstoqueEvent evento, String mensagem) {
+        System.out.println("Notificando " + subscribers.size() + " assinantes.");
         for (Subscriber subscriber : subscribers) {
             subscriber.atualizar(evento, mensagem);
         }
