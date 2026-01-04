@@ -10,6 +10,8 @@ Os padrões de projeto são classificados, principalmente, de acordo com sua fin
 
 Estes padrões focam nos mecanismos de criação de objetos, abstraindo o processo de instanciação. O objetivo é tornar o sistema independente de como seus objetos são criados e compostos, evitando o acoplamento direto com classes concretas.
 
+- **Singleton**: O objetivo principal é garantir que uma classe tenha apenas uma única instância durante toda a execução de um programa, fornecendo, simultaneamente, um ponto de acesso global para essa instância.
+
 ## Padrões Estruturais
 Lidam com a composição de classes e objetos para formar estruturas maiores e mais complexas. Eles visam garantir que, ao montar essas estruturas, o sistema permaneça flexível e eficiente. Alguns utilizam a herança para compor interfaces, enquanto outros focam na composição de objetos para obter novas funcionalidades em tempo de execução.
 

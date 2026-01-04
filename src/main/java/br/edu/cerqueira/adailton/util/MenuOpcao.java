@@ -3,6 +3,7 @@ package br.edu.cerqueira.adailton.util;
 public enum MenuOpcao {
     STRATEGY(1, "Strategy"),
     OBSERVER(2, "Observer"),
+    SINGLETON(3, "Singleton"),
     SAIR(0, "Sair");
 
     private final int codigo;

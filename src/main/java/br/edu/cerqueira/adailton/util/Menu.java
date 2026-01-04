@@ -8,6 +8,7 @@ public class Menu {
         System.out.println("===== Escolha um Padrão ======");
         System.out.println("1. Strategy");
         System.out.println("2. Observer");
+        System.out.println("3. Singleton");
         System.out.println("0. Sair");
         System.out.println("==============================");
     }
@@ -16,7 +17,7 @@ public class Menu {
         System.out.println();
         System.out.println("==============================");
         System.out.println("CALCULADORA");
-        System.out.println("===== Escolha Operacao ======");
+        System.out.println("===== Escolha Operação ======");
         System.out.println("1. Somar");
         System.out.println("2. Subtrair");
         System.out.println("3. Multiplicar");
@@ -29,11 +30,23 @@ public class Menu {
         System.out.println();
         System.out.println("==============================");
         System.out.println("ESTOQUE");
-        System.out.println("===== Escolha Operacao ======");
+        System.out.println("===== Escolha opção ======");
         System.out.println("1. Adicionar Produto");
         System.out.println("2. Remover Produto");
         System.out.println("3. Listar Produtos");
         System.out.println("4. Registrar/Remover alerta");
+        System.out.println("0. Sair");
+        System.out.println("==============================");
+    }
+
+    public void menuSingleton() {
+        System.out.println();
+        System.out.println("==============================");
+        System.out.println("SINGLETON");
+        System.out.println("===== Escolha opção ======");
+        System.out.println("1. Gerar Instância");
+        System.out.println("2. Alterar valor");
+        System.out.println("3. Listar valores");
         System.out.println("0. Sair");
         System.out.println("==============================");
     }
